@@ -1,0 +1,110 @@
+@media screen and (max-width: 1400px) {
+    
+}
+
+@media screen and (max-width: 1200px) {
+    #contenido-principal .contenido .row .col-12 .item-producto a{
+        width: 80%;
+        margin: auto;
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (max-width: 992px) {
+    .navbar .container-fluid .collapse .navbar-nav .nav-item {
+        margin: 5px 0px;
+    }
+    .navbar .container-fluid .collapse{
+        flex-grow: 1;
+         margin: 0;
+    }
+
+      #contenido-principal .container .contenedor-principal{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+    #contenido-principal .banner-container .parallax{
+    height: auto;}
+
+    #contenido-principal .banner-container .parallax .row .col-12 .banner-item{
+        margin: 15px auto;
+    }
+}
+
+ @media screen and (max-width: 759px){
+    .slider{
+        display: none;
+    }
+} 
+
+@media screen and (max-width: 768px) {
+    .titulos-container .titulos{
+        margin: auto;
+    }
+
+    .titulos-container .opciones{
+        margin: auto;
+    }
+
+    .busqueda{
+        margin: auto;
+        justify-content: center;
+    }
+
+    .busqueda div{
+        margin: 10px 0;
+    }
+
+    .busqueda form{
+        width: 90%;
+        margin: auto;
+    }
+
+    #contenido-principal .contenido .row .col-12 .item-producto{
+        margin-top: 15px;
+    }
+
+    #contenido-principal .contenido .row.row-responsive{
+        display: none;
+    }
+
+    #contenido-principal .contenido .row .col-12 .item-producto .img-container{
+    width: 200px;
+}
+
+#contenido-principal .contenido .row .col-12 .item-producto .img-container img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+#contenido-principal .contenido .row .col-12 .item-producto .img-container.img-2{
+    width: 150px;
+}
+
+#contenido-principal .contenido .row .col-12 .item-producto .img-container.img-3{
+    width: 200px;
+}
+
+#NOSOTROS main .testimonios{
+    height: auto;
+}
+
+
+#NOSOTROS main .testimonios .container .row .col-12 .testimonio-item{
+    margin: 15px 0;
+}
+
+}
+
+@media screen and (max-width: 576px) {
+    
+}
+
+@media screen and (max-width: 406px) {
+    .titulos-container .opciones{
+        justify-content: center;
+    }
+}
